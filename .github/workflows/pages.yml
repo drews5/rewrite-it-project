@@ -1,5 +1,8 @@
 name: Publish The Re-Write It Project
 on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/pages.yml']
   workflow_dispatch:
   schedule:
     - cron: '7,37 * * * *'
