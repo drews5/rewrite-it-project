@@ -20,6 +20,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: drews5/drews
+          # Keep the public site and its embedded editor on the same source release.
           ref: main
       - uses: actions/setup-node@v4
         with:
