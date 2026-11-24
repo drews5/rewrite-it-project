@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: drews5/drews
-          # Build the Team page and its roster editor from the same source revision.
+          # Keep featured team cards and their editor profiles in sync.
           ref: main
       - uses: actions/setup-node@v4
         with:
