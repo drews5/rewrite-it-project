@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: drews5/drews
-          # Keep featured team cards and their editor profiles in sync.
+          # Publish the same Team page order for public visitors and editor previews.
           ref: main
       - uses: actions/setup-node@v4
         with:
