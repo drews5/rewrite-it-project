@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: drews5/drews
-          # Publish the latest Team roster and its live refresh logic together.
+          # Publish the editor's content tools and matching public page renderer together.
           ref: main
       - uses: actions/setup-node@v4
         with:
